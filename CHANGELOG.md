@@ -13,3 +13,7 @@
 
 2/20/2023
 - Uploaded Homework5.cs file
+
+3/6/2023
+- Uploaded and Removed Homework6.cs file (made a mistake)
+
