@@ -1,4 +1,4 @@
-﻿namespace Homework6;
+namespace Homework6;
 class Program
 {
     static void Main(string[] args)
@@ -26,6 +26,12 @@ class Program
         s2.subject = "Math";
         s2.SetGrade(80);
         Console.WriteLine(s2.PrintInfo());
+
+        double salary_diff = p1.GetSalary() - p2.GetSalary();
+        Console.WriteLine($"The salary difference between {p1.name} and {p2.name} is: {salary_diff}.");
+
+        double grade_sum = s1.GetGrade() + s2.GetGrade();
+        Console.WriteLine($"The total grade of {s1.name} and {s2.name} is: {grade_sum}.");
     }   
 }
 
@@ -43,7 +49,7 @@ class Professor
         return salary;
     }
     public string PrintInfo(){
-        return $"Professor {name} teaches {subject}, and the salary is; {salary}";
+        return $"Professor {name} teaches {subject}, and the salary is: {salary}";
     }
 }
 
@@ -63,6 +69,6 @@ class Student
     }
 
     public string PrintInfo(){
-        return $"Student {name} enrolls {subject}, and the grade is; {grade}";
+        return $"Student {name} enrolls {subject}, and the grade is: {grade}";
     }
 }
