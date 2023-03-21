@@ -18,3 +18,6 @@
 - Uploaded and Removed Homework6.cs file (made a mistake)
 - Reuploaded Homework6.cs file
 - Updated Homework6.cs file wih salary difference and grade sum
+
+3/20/2023
+- Uploaded BonusMideterm.cs
